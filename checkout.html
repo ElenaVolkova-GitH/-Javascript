@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/50ae95f56c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="center header">
+        <div class="header__left">
+            <a class="logo" href="index.html"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="D_from_branD">D</span></a>
+            <form class="header__form" action="#">
+                <details class="browse">
+                    <summary class="browse__sum"> Browse <img class="arrow_down" src="img/ar_down.png" alt="arrow_down"></summary>
+                    <div class="drop-flex__browse">
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                            <li><a href="#" class="drop__link">Jackets/Coats</a></li>
+                            <li><a href="#" class="drop__link">Blazers</a></li>
+                            <li><a href="#" class="drop__link">Denim</a></li>
+                            <li><a href="#" class="drop__link">Leggings/Pants</a></li>
+                            <li><a href="#" class="drop__link">Skirts/Shorts</a></li>
+                            <li><a href="#" class="drop__link">Accessories </a></li>
+                        </ul>
+                        <h3 class="drop__h3">Men</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Tees/Tank tops</a></li>
+                            <li><a href="#" class="drop__link">Shirts/Polos</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Sweaters</a></li>
+                            <li><a href="#" class="drop__link">Sweatshirts/Hoodies</a></li>
+                            <li><a href="#" class="drop__link">Blazers</a></li>
+                            <li><a href="#" class="drop__link">Jackets/vests</a></li>
+                        </ul>
+                    </div>
+                </details>
+                <div class="Search_for_item">
+                    <input class="Search" type="text_Search" placeholder="Search for Item...">
+                    <button type="submit"><img src="img/search.png" alt="search"></button>
+                </div>
+            </form>
+        </div>
+        <div class="header__right">
+            <a href="#"><img class="header__cart" src="img/cart.svg" alt="cart"></a>
+            <button type="my_acc"><span class="my_acc_space">My Account</span><img src="img/arr_down_white.png" alt="search"></button>
+        </div>
+    </header>
+    <main>
+        <nav class="center">
+            <ul class="menu">
+                <li class="menu__list catalog__menu"><a href="#" class="menu__link">Home</a></li>
+                <li class="menu__list catalog__menu"><a href="#" class="menu__link">Man</a>
+                </li>
+                <li class="menu__list catalog__menu"><a href="#" class="menu__link">Women</a></li>
+                <li class="menu__list catalog__menu"><a href="#" class="menu__link">Kids</a></li>
+                <li class="menu__list catalog__menu"><a href="#" class="menu__link">Accoseriese</a></li>
+                <li class="menu__list catalog__menu"><a href="#" class="menu__link">Featured</a></li>
+                <li class="menu__list catalog__menu"><a href="#" class="menu__link">Hot Deals</a></li>
+            </ul>
+        </nav>
+        <section class="new_arrivals">
+            <div class="center NA_box_all">
+                <a href="#">
+                    <div class="NA_name">New Arrivals</div>
+                </a>
+                <div class="known_nav"><a href="index.html">Home</a> / Men / <span class="ch_nav">New Arrivals</span></div>
+            </div>
+        </section>
+        <section class="center shipping">
+                <details class="shipping__adress">
+                    <summary  class="shipping__title">01. <span class="ml_6">Shipping Adress</span></summary>
+                    <div class="shipping__allContents">
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Check as a guest or register</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <div class="shipping__allContents__radioBlock">
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">checkout as guest</span> <br>
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">register</span>
+                            </div>
+                            <p class="shipping__allContents__div__CHECK">register and save time!</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <p class="shipping__allContents__div__convenience shipping__allContents__div__convenience_mb10"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p class="shipping__allContents__div__convenience"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order history and status</p>
+                            
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout">Continue</div>
+                            </a>
+                        </div>
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Already registed?</p>
+                            <p class="shipping__allContents__div__convenience">Please log in below</p>
+                            
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email">EMAIL ADDRESS<span class="red">*</span></p>
+                            <input class="State" type="email">
+                            <br>
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email mt13">PASSWORD<span class="red">*</span></p>
+                            <input class="State" type="password">
+                            
+                            <p class="red mt13 mb32">* Required Fileds</p>
+                                                        
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout fl">Log in</div>
+                            </a>
+                            <a  href="#">
+                            <span class="shipping__allContents__div_forgot">Forgot Password ?</span></a>
+                        </div>
+                    </div>
+                </details>
+                <details class="shipping__adress">
+                    <summary  class="shipping__title">02. <span class="ml_6">BILLING INFORMATION</span></summary>
+                    <div class="shipping__allContents">
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Check as a guest or register</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <div class="shipping__allContents__radioBlock">
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">checkout as guest</span> <br>
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">register</span>
+                            </div>
+                            <p class="shipping__allContents__div__CHECK">register and save time!</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <p class="shipping__allContents__div__convenience shipping__allContents__div__convenience_mb10"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p class="shipping__allContents__div__convenience"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order history and status</p>
+                            
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout">Continue</div>
+                            </a>
+                        </div>
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Already registed?</p>
+                            <p class="shipping__allContents__div__convenience">Please log in below</p>
+                            
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email">EMAIL ADDRESS<span class="red">*</span></p>
+                            <input class="State" type="email">
+                            <br>
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email mt13">PASSWORD<span class="red">*</span></p>
+                            <input class="State" type="password">
+                            
+                            <p class="red mt13 mb32">* Required Fileds</p>
+                                                        
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout fl">Log in</div>
+                            </a>
+                            <a  href="#">
+                            <span class="shipping__allContents__div_forgot">Forgot Password ?</span></a>
+                        </div>
+                    </div>
+                </details>
+                <details class="shipping__adress">
+                    <summary  class="shipping__title">03. <span class="ml_6">SHIPPING INFORMATION</span></summary>
+                    <div class="shipping__allContents">
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Check as a guest or register</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <div class="shipping__allContents__radioBlock">
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">checkout as guest</span> <br>
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">register</span>
+                            </div>
+                            <p class="shipping__allContents__div__CHECK">register and save time!</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <p class="shipping__allContents__div__convenience shipping__allContents__div__convenience_mb10"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p class="shipping__allContents__div__convenience"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order history and status</p>
+                            
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout">Continue</div>
+                            </a>
+                        </div>
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Already registed?</p>
+                            <p class="shipping__allContents__div__convenience">Please log in below</p>
+                            
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email">EMAIL ADDRESS<span class="red">*</span></p>
+                            <input class="State" type="email">
+                            <br>
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email mt13">PASSWORD<span class="red">*</span></p>
+                            <input class="State" type="password">
+                            
+                            <p class="red mt13 mb32">* Required Fileds</p>
+                                                        
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout fl">Log in</div>
+                            </a>
+                            <a  href="#">
+                            <span class="shipping__allContents__div_forgot">Forgot Password ?</span></a>
+                        </div>
+                    </div>
+                </details>
+                <details class="shipping__adress">
+                    <summary  class="shipping__title">04. <span class="ml_6">SHIPPING METHOD</span></summary>
+                    <div class="shipping__allContents">
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Check as a guest or register</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <div class="shipping__allContents__radioBlock">
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">checkout as guest</span> <br>
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">register</span>
+                            </div>
+                            <p class="shipping__allContents__div__CHECK">register and save time!</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <p class="shipping__allContents__div__convenience shipping__allContents__div__convenience_mb10"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p class="shipping__allContents__div__convenience"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order history and status</p>
+                            
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout">Continue</div>
+                            </a>
+                        </div>
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Already registed?</p>
+                            <p class="shipping__allContents__div__convenience">Please log in below</p>
+                            
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email">EMAIL ADDRESS<span class="red">*</span></p>
+                            <input class="State" type="email">
+                            <br>
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email mt13">PASSWORD<span class="red">*</span></p>
+                            <input class="State" type="password">
+                            
+                            <p class="red mt13 mb32">* Required Fileds</p>
+                                                        
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout fl">Log in</div>
+                            </a>
+                            <a  href="#">
+                            <span class="shipping__allContents__div_forgot">Forgot Password ?</span></a>
+                        </div>
+                    </div>
+                </details>
+                <details class="shipping__adress">
+                    <summary  class="shipping__title">05. <span class="ml_6">PAYMENT METHOD</span></summary>
+                    <div class="shipping__allContents">
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Check as a guest or register</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <div class="shipping__allContents__radioBlock">
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">checkout as guest</span> <br>
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">register</span>
+                            </div>
+                            <p class="shipping__allContents__div__CHECK">register and save time!</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <p class="shipping__allContents__div__convenience shipping__allContents__div__convenience_mb10"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p class="shipping__allContents__div__convenience"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order history and status</p>
+                            
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout">Continue</div>
+                            </a>
+                        </div>
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Already registed?</p>
+                            <p class="shipping__allContents__div__convenience">Please log in below</p>
+                            
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email">EMAIL ADDRESS<span class="red">*</span></p>
+                            <input class="State" type="email">
+                            <br>
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email mt13">PASSWORD<span class="red">*</span></p>
+                            <input class="State" type="password">
+                            
+                            <p class="red mt13 mb32">* Required Fileds</p>
+                                                        
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout fl">Log in</div>
+                            </a>
+                            <a  href="#">
+                            <span class="shipping__allContents__div_forgot">Forgot Password ?</span></a>
+                        </div>
+                    </div>
+                </details>
+                <details class="shipping__adress">
+                    <summary  class="shipping__title">06. <span class="ml_6">ORDER REVIEW</span></summary>
+                    <div class="shipping__allContents">
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Check as a guest or register</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <div class="shipping__allContents__radioBlock">
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">checkout as guest</span> <br>
+                                <input type="radio" name="checkout"> <span class="shipping__allContents__div__CHECK ml_6">register</span>
+                            </div>
+                            <p class="shipping__allContents__div__CHECK">register and save time!</p>
+                            <p class="shipping__allContents__div__convenience">Register with us for future convenience</p>
+                            <p class="shipping__allContents__div__convenience shipping__allContents__div__convenience_mb10"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fast and easy checkout</p>
+                            <p class="shipping__allContents__div__convenience"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Easy access to your order history and status</p>
+                            
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout">Continue</div>
+                            </a>
+                        </div>
+                        <div  class="shipping__allContents__div">
+                            <p class="shipping__allContents__div__CHECK">Already registed?</p>
+                            <p class="shipping__allContents__div__convenience">Please log in below</p>
+                            
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email">EMAIL ADDRESS<span class="red">*</span></p>
+                            <input class="State" type="email">
+                            <br>
+                            <p class="shipping__allContents__div__CHECK shipping__allContents__div__CHECK_email mt13">PASSWORD<span class="red">*</span></p>
+                            <input class="State" type="password">
+                            
+                            <p class="red mt13 mb32">* Required Fileds</p>
+                                                        
+                            <a href="#">
+                                <div class="shopping_cart__choose__button1 shopping_cart__choose__button1_checkout fl">Log in</div>
+                            </a>
+                            <a  href="#">
+                            <span class="shipping__allContents__div_forgot">Forgot Password ?</span></a>
+                        </div>
+                    </div>
+                </details>
+        </section>
+
+
+        <div class="product-box center clr_cat"></div>
+
+
+        <section class="subscribe">
+            <div class="center subscribe_box">
+                <article class="subscribe_article art1">
+                    <img class="img_lady" src="img/lady.svg" alt="lady">
+                    <p class="subscribe_article_content">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                    <p class="subscribe_article_name nmc1">Bin Burhan</p>
+                    <p class="subscribe_article_place">Dhaka, Bd</p>
+                </article>
+
+                <article class="subscribe_article art2">
+                    <img class="img_lady" src="img/lady.svg" alt="lady">
+                    <p class="subscribe_article_content">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                    <p class="subscribe_article_name">Bin Burhan</p>
+                    <p class="subscribe_article_place">Dhaka, Bd</p>
+                </article>
+                <article class="subscribe_article art3">
+                    <img class="img_lady" src="img/lady.svg" alt="lady">
+                    <p class="subscribe_article_content nmc3">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                    <p class="subscribe_article_name">Bin Burhan</p>
+                    <p class="subscribe_article_place">Dhaka, Bd</p>
+                </article>
+
+                <div class="choose_art">
+                    <span class="rectangle r1"></span>
+                    <span class="rectangle r2"></span>
+                    <span class="rectangle r3"></span>
+                </div>
+                <div class="center subscribe_form_promo">
+                    <p class="sub">Subscribe</p>
+                    <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                    <div class="En_email">
+                        <input class="Enter_Email" type="email" placeholder="Enter Your Email">
+                        <button class="subscribe_button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="center footer_menu_and_brand_desc">
+            <article class="footer__brand">
+                <a class="logo" href="index.html"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="D_from_branD">D</span></a>
+                <p class="brand_desc">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                    <br><br>
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </p>
+            </article>
+            <section class="footer__menu">
+                <article class="footer_menu__item">
+                    <p class="footer_menu_heading">COMPANY</p>
+                    <ul class="footer_menu_links">
+                        <li><a href="index.html" class="footer_menu_link">Home</a></li>
+                        <li><a href="#" class="footer_menu_link">Shop</a></li>
+                        <li><a href="#" class="footer_menu_link">About</a></li>
+                        <li><a href="#" class="footer_menu_link">How It Works</a></li>
+                        <li><a href="#" class="footer_menu_link">Contact</a></li>
+                    </ul>
+                </article>
+                <article class="footer_menu__item">
+                    <p class="footer_menu_heading">INFORMATION</p>
+                    <ul class="footer_menu_links">
+                        <li><a href="#" class="footer_menu_link">Tearms &amp; Condition</a></li>
+                        <li><a href="#" class="footer_menu_link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer_menu_link">How to Buy</a></li>
+                        <li><a href="#" class="footer_menu_link">How to Sell</a></li>
+                        <li><a href="#" class="footer_menu_link">Promotion</a></li>
+                    </ul>
+                </article>
+                <article class="footer_menu__item">
+                    <p class="footer_menu_heading">SHOP CATEGORY</p>
+                    <ul class="footer_menu_links">
+                        <li><a href="#" class="footer_menu_link">Men</a></li>
+                        <li><a href="#" class="footer_menu_link">Women</a></li>
+                        <li><a href="#" class="footer_menu_link">Child</a></li>
+                        <li><a href="#" class="footer_menu_link">Apparel</a></li>
+                        <li><a href="#" class="footer_menu_link">Brows All</a></li>
+                    </ul>
+                </article>
+            </section>
+        </section>
+        <section class="center footer_copy_and_social">
+            <div class="footer_copy">&copy; 2017 Brand All Rights Reserved.</div>
+            <ul class="menu social_links_menu">
+                <li class="social_link"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="social_link"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="social_link"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social_link"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li class="social_link"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+
+</html>
